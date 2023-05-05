@@ -1,0 +1,30 @@
+<div class="container">
+    <h2>Create an account</h2>
+    <form #form="ngForm">
+        <input 
+            required
+            type="text" 
+            placeholder="First Name">
+
+        <input 
+            required
+            type="text" 
+            placeholder="Last Name">
+        
+        <input 
+            required
+            type="text" 
+            placeholder="User Name">
+
+        <input 
+            required
+            type="password" 
+            placeholder="Password">
+
+        <button
+            type="submit"
+            [disabled]="form.invalid">
+            Create account
+        </button>
+    </form>
+</div>
