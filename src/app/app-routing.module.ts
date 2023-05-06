@@ -8,15 +8,14 @@ import { SignupComponent } from './signup/signup.component';
 
 
 const routes: Routes = [
-  // {
-  //   path: '',
-  //   redirectTo: 'slides',
-  //   pathMatch: 'full',
-  // },
   {
-    path: 'slides',
+    path: '',
     component: SlidesComponent,
   },
+  // {
+  //   path: 'slides',
+  //   component: SlidesComponent,
+  // },
   {
     path: 'login',
     component: LoginComponent,
