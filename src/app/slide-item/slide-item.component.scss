@@ -1,0 +1,13 @@
+.container {
+    margin-left: 0px;
+    margin: 5px;
+    padding: 0px;
+    width: 200px;
+    min-height: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #bebebe, -5px -5px 15px #bebebe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom:5px solid orange;
+}

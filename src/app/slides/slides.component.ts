@@ -19,7 +19,7 @@ export class SlidesComponent implements OnInit {
 
   ngOnInit(): void {
     this.slides$.next(
-      Array.from({ length: 2 }).map((el, index) => `Slide ${index + 1}`)
+      Array.from({ length: 20 }).map((el, index) => `Slide ${index + 1}`)
     );
   }
 
