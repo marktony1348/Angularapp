@@ -53,9 +53,7 @@
   [slidesPerView]="1" 
   [navigation]="true" 
   [keyboard]="{ enabled: true }" 
-  [virtual]="true"
-  [pagination]="{clickable: true}"
-    >
+  [virtual]="true">
       <ng-template swiperSlide class="slide-container">
         <div class="first-slide">
           <corp-slide-item *ngFor="let slide of slides$ | async;" >
