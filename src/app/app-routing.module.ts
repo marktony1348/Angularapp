@@ -9,8 +9,16 @@ import { SignupComponent } from './signup/signup.component';
 
 const routes: Routes = [
   {
+<<<<<<< HEAD
     path: '',
     component: SlidesComponent,
+||||||| 594dce8
+    path: 'slides',
+    component: SlidesComponent,
+=======
+    path: '',
+    component: SlidesComponent
+>>>>>>> 793c6e1e56b9055ff2a2b339c9e1b6bd93857f60
   },
   // {
   //   path: 'slides',
