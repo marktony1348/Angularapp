@@ -1,6 +1,24 @@
 <!-- Represents each item in the slide -->
-<div class="container">
-    <div class="div-with-text">
-        apple 5$
+<!-- Div is styled based on category -->
+<div 
+    class="container"
+    [ngClass]="{'fruit-div': item.category === 'fruit', 
+    'beverage-div': item.category === 'beverage',
+    'baked-food-div': item.category === 'baked food',
+    'burger-div': item.category === 'burger',
+    'yoghurt-div': item.category === 'yoghurt',
+    'chocolate-slice-div': item.category === 'chocolate-slice',
+    'ice-cream-div': item.category === 'ice-cream'}"
+    >
+    <img
+        [ngClass]="{'fruit-img': item.category === 'fruit',
+                    'chocolate-slice-img': item.category === 'chocolate-slice'}"
+        src="{{ item.url }}" 
+        alt="{{ item.name }}"
+        >
+    <div
+        *ngIf="item.category !== 'fruit'" 
+        class="div-with-text">
+        {{ item.name }}
     </div>
 </div>

@@ -47,7 +47,7 @@
   </ng-template>
   </swiper>
 </div> -->
-
+<!-- 
 <div class="container-div">
   <swiper
   [slidesPerView]="1" 
@@ -64,6 +64,37 @@
       <ng-template swiperSlide class="slide-container">
         <div class="second-slide">
           <corp-slide-item *ngFor="let slide of slides$ | async;" >
+
+          </corp-slide-item>
+        </div>
+      </ng-template>
+  </swiper>
+</div> -->
+
+
+
+<div class="container-div">
+  <swiper
+  [slidesPerView]="1" 
+  [navigation]="true" 
+  [keyboard]="{ enabled: true }" 
+  [virtual]="true">
+      <ng-template swiperSlide class="slide-container">
+        <div class="first-slide">
+          <corp-slide-item 
+          *ngFor="let item of menu"
+          [item]="item"
+          >
+
+          </corp-slide-item>
+        </div>
+      </ng-template>
+      <ng-template swiperSlide class="slide-container">
+        <div class="first-slide">
+          <corp-slide-item 
+          *ngFor="let item of menu"
+          [item]="item"
+          >
 
           </corp-slide-item>
         </div>

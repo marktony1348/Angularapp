@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'corp-slide-item',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./slide-item.component.scss']
 })
 export class SlideItemComponent implements OnInit {
-
+  @Input() item: any;
   constructor() { }
 
   ngOnInit(): void {

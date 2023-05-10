@@ -1,0 +1,100 @@
+{
+    "menu": [
+        {
+            "name": "apple",
+            "category": "fruit",
+            "url": "https://source.unsplash.com/gDPaDDy6_WE"
+        },
+         {
+            "name": "banana",
+            "category": "fruit",
+            "url": "https://source.unsplash.com/Kl3467edwsE"
+        },
+        {
+            "name": "pear",
+            "category": "fruit",
+            "url": "https://source.unsplash.com/haSJEJYzl5A"
+        },
+        {
+            "name": "Tasse Cappuccino",
+            "category": "beverage",
+            "url": "https://source.unsplash.com/7CwiC9GFzxA"
+        },
+        {
+            "name": "Tasse Tee",
+            "category": "beverage",
+            "url": "https://source.unsplash.com/Z-hvocTfR_s"
+            
+        },
+        {
+            "name": "Latte Macchiato",
+            "category": "beverage",
+            "url": "https://source.unsplash.com/UDicajjz-EU"
+        },
+        {
+            "name": "Schoko Nuss Schnitte",
+            "category": "chocolate-slice",
+            "url": "https://source.unsplash.com/WPRuXYLNY68"
+        },
+        {
+            "name": "Muffin",
+            "category": "baked food",
+            "url": "https://source.unsplash.com/FAnSK-gVGZU"
+        },
+        {
+            "name": "Quark ca. 100g Port.",
+            "category": "yoghurt",
+            "url": "https://source.unsplash.com/bBCRrplhhZ4"
+        },
+        {
+            "name": "Fruchtshake",
+            "category": "yoghurt",
+            "url": "https://source.unsplash.com/rwBJaJdesGg"
+        },
+        {
+            "name": "Himbeer-Donut",
+            "category": "yoghurt",
+            "url": "https://source.unsplash.com/goTFN3F8IIE"
+        },
+        {
+            "name": "Himbeerschnitte",
+            "category": "chocolate-slice",
+            "url": "../../assets/images/Himbeerschnitte.jpg"
+        },
+        {
+            "name": "Hornchen Schoko Vanille",
+            "category": "ice-cream",
+            "url": "https://source.unsplash.com/TLD6iCOlyb0"
+        },
+        {
+            "name": "Cheese Burger",
+            "category": "burger",
+            "url": "https://source.unsplash.com/pucP6jZSyV4"
+        },
+        {
+            "name": "Thuringer Bratwurst",
+            "category": "burger",
+            "url": "../../assets/images/Thuringer Bratwurst.png"
+        },
+        {
+            "name": "Schnitzel paniert 160g",
+            "category": "burger",
+            "url": "https://source.unsplash.com/MyfbM2QYF4o"
+        },
+        {
+            "name": "Hot Dog",
+            "category": "burger",
+            "url": "https://source.unsplash.com/MR329Bd-7sA"
+        },
+        {
+            "name": "Currywurst mit Pommes frites",
+            "category": "burger",
+            "url": "https://source.unsplash.com/PJrRYKdAwlQ"
+        },
+        {
+            "name": "Currywurst",
+            "category": "burger",
+            "url": "../../assets/images/currywurst.png"
+        }
+    ]
+}

@@ -1,13 +1,68 @@
 .container {
-    margin-left: 0px;
-    margin: 5px;
+    // margin-left: 0px;
+    // margin-right: 5px;
+    margin-bottom: 5px;
     padding: 0px;
-    width: 200px;
-    min-height: 50px;
+    min-height: 40px;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px #bebebe, -5px -5px 15px #bebebe;
+    // box-shadow: 5px 5px 15px #bebebe, -5px -5px 15px #bebebe;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom:5px solid orange;
+    flex-direction: row;
+    border: 2px outset gray;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.div-with-text {
+    margin: auto;
+}
+
+.fruit-div {
+    width: 120px;
+    height: 120px;
+}
+
+.fruit-img {
+    width: 120px;
+    height: 120px;
+}
+
+.beverage-div {
+    width: 300px;
+    border-bottom: 5px solid rgb(39, 142, 207);
+}
+
+.baked-food-div {
+    width: 300px;
+    border-bottom: 5px solid yellow;
+}
+
+.chocolate-slice-div {
+    width: 300px;
+    height: 100px;
+    border-bottom: 5px solid yellow;
+}
+
+.chocolate-slice-img {
+    height: 98%;
+    width: 100px;
+}
+
+.ice-cream-div {
+    width: 300px;
+    border-bottom: 5px solid yellow;
+}
+
+.yoghurt-div {
+    width: 300px;
+    border-bottom: 5px solid rgb(239, 116, 71);
+}
+
+.burger-div {
+    width: 300px;
+    border-bottom: 5px solid rgb(39, 142, 207);
 }
