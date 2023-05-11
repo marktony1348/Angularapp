@@ -95,6 +95,18 @@
             "name": "Currywurst",
             "category": "burger",
             "url": "../../assets/images/currywurst.png"
+        },
+        {
+            "name": "Hot Dog",
+            "category": "burger",
+            "url": "https://source.unsplash.com/MR329Bd-7sA"
+        },
+        {
+            "name": "Himbeerschnitte",
+            "category": "chocolate-slice",
+            "url": "../../assets/images/Himbeerschnitte.jpg"
         }
+ 
+    
     ]
 }

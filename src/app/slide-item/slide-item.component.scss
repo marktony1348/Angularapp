@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: row;
     border: 2px outset gray;
+    // width: 60%;
 }
 
 img {
@@ -32,18 +33,19 @@ img {
 }
 
 .beverage-div {
-    width: 300px;
+    width: 250px;
     border-bottom: 5px solid rgb(39, 142, 207);
+    // width: 98%;
 }
 
 .baked-food-div {
-    width: 300px;
+    width: 250px;
     border-bottom: 5px solid yellow;
 }
 
 .chocolate-slice-div {
-    width: 300px;
-    height: 100px;
+    width: 250px;
+    // height: 100px;
     border-bottom: 5px solid yellow;
 }
 
@@ -53,16 +55,17 @@ img {
 }
 
 .ice-cream-div {
-    width: 300px;
+    width: 250px;
     border-bottom: 5px solid yellow;
 }
 
 .yoghurt-div {
-    width: 300px;
+    width: 250px;
     border-bottom: 5px solid rgb(239, 116, 71);
 }
 
 .burger-div {
-    width: 300px;
+    width: 250px;
     border-bottom: 5px solid rgb(39, 142, 207);
 }
+
